@@ -1,3 +1,9 @@
+![pasted image 0](https://user-images.githubusercontent.com/78429974/124158597-05a96500-da92-11eb-8990-1d69fcf8501a.png)
+![Screenshot (8)](https://user-images.githubusercontent.com/78429974/124158619-0cd07300-da92-11eb-9faa-18371fc6336e.png)
+![Screenshot (10)_LI](https://user-images.githubusercontent.com/78429974/124158636-135eea80-da92-11eb-8df6-d4c171ca9a24.jpg)
+![Screenshot (11)](https://user-images.githubusercontent.com/78429974/124158625-1063fa00-da92-11eb-8235-7f227476b6d8.png)
+![Screenshot (17)](https://user-images.githubusercontent.com/78429974/124159589-3ccc4600-da93-11eb-8949-f958bc3e5815.png)
+
 # Financial_AI_Assistant
 Financial AI Assistant written in Python.
 
