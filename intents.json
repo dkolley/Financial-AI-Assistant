@@ -1,0 +1,91 @@
+{"intents": [
+  {"tag":  "greetings",
+    "patterns": ["Hey", "Hello", "What's up?", "Hi", "Good day", "greetings", "yo"],
+    "responses": ["Hello Sir!", "Hey Dennis!"]
+  },
+  {"tag":  "plot_chart",
+    "patterns": ["I want you to plot a stock price!", "Please plot a chart", "Plot a stock", "Plot a stock price", "Show me a stock price chart", "Candlestick chart", "plot price"],
+    "responses": ["Plotting Chart"]
+  },
+  {"tag":  "add_portfolio",
+    "patterns": ["Add a stock to my portfolio", "Add a stock", "Add a stock to my list", "I want to add something to my portfolio", "I want to add a new stock", "I want to add to my portfolio", "I have a new stock", "I want to add something to my portfolio", "I bought a new stock", "I bought a new stock", "I need to buy some shares"],
+    "responses": ["Adding Stock"]
+  },
+
+  {"tag":  "remove_portfolio",
+    "patterns": ["Remove a stock to my portfolio", "Remove a stock", "Remove a stock from my list", "I want to remove something from my portfolio", "I want to remove a stock", "I want to remove from my portfolio", "I sold an old stock", "I want to remove something from my portfolio", "I sold a stock", "I am selling a stock", "I need to sell some shares"],
+    "responses": ["Removing Stock"]
+  },
+
+  {"tag":  "show_portfolio",
+    "patterns": ["Show me my investments", "Show me my portfolio ", "Tell me about my investments", "Tell me about my portfolio", "Show me my stocks", "What stocks do I own?", "Which stocks do I own?", "What are my stocks?", "List my portfolio", "List my stocks", "show stocks"],
+    "responses": ["Showing Portfolio"],
+    "context_set": ""
+  },
+
+  {"tag":  "stock_price",
+    "patterns": ["I want to know the price of a stock!", "Show me the price of a stock", "I want to know about a stock", "Show me the price of a stock", "Show me the price of a company", "I want to know the price for a ticker", "get price", "get the price for a stock"],
+    "responses": ["Price of Stock"],
+    "context_set": ""
+  },
+
+  {"tag":  "portfolio_worth",
+    "patterns": ["How much is my portfolio worth?", "What is the value of my portfolio?", "Show me how much my portfolio is worth", "How much money is in my portfolio", "How much are my investments worth?", "What is the value of my investments?", "portfolio value"],
+    "responses": ["Portfolio Worth"],
+    "context_set": ""
+  },
+
+   {"tag":  "portfolio_gains",
+    "patterns": ["How is my portfolio performing?", "How are my gains?", "Am I in the positive?", "Are my investments positive?", "Did I make any gains?", "I want to know about the portfolio performance"],
+    "responses": ["Portfolio Gains"],
+    "context_set": ""
+  },
+
+  {"tag":  "bye",
+    "patterns": ["bye", "goodbye", "stop", "I have to go", "end", "no", "nope", "done"],
+    "responses": ["Goodbye"],
+    "context_set": ""
+  },
+
+   {"tag":  "sma_of_stock",
+    "patterns": ["What is the simple moving average of this stock?", "What is the sma?", "sma", "simple moving average", "Give me the sma", "Sma of this stock?"],
+    "responses": ["Simple Moving Average"],
+    "context_set": ""
+  },
+
+   {"tag":  "get_sentiment",
+    "patterns": ["sentiment", "Sentiment", "What is the sentiment of this word", "What is the sentiment of?", "Sentiment score", "sentiment rating of"],
+    "responses": ["Sentiment of a Keyword"],
+    "context_set": ""
+  },
+
+   {"tag":  "stock_screener",
+    "patterns": ["screener", "screen", "Stock screener", "Show me how my stocks are doing", "How are all of my stocks doing?"],
+    "responses": ["Stock Screener"],
+    "context_set": ""
+  },
+
+  {"tag":  "portfolio_visualizer",
+    "patterns": ["visualizer", "visual", "pie", "pie chart", "Show me a visual representation of my portfolio"],
+    "responses": ["Portfolio Visualizer"],
+    "context_set": ""
+  },
+
+  {"tag":  "plot_rsi",
+    "patterns": ["rsi", "RSI", "plot rsi", "rsi chart"],
+    "responses": ["Plot RSI"],
+    "context_set": ""
+  },
+   {"tag":  "calculate_intrinsic_value",
+    "patterns": ["fair", "calculate_intrinsic_value", "fair price", "intrinsic", "calculate the intrinsic value of", "what is the fair price"],
+    "responses": ["Calculating Intrinsic Value"],
+    "context_set": ""
+  },
+
+  {"tag":  "help",
+    "patterns": ["help", "i need help", "i'm stuck", "don't know", "confused", "what do I do?", "what can I do?", "what are my options?"],
+    "responses": ["Help"],
+    "context_set": ""
+  }
+]
+}
