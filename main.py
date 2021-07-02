@@ -235,7 +235,7 @@ def get_specific_stock_price(ticker_name):
 def sma_of_stock():
     ticker_name = input("Enter the ticker name: ")
     period = input("Enter the period for the SMA (in days): ")
-    api_keys = '7Q9XCUZC92SSWZL7'
+    api_keys = '#####################'
     yesterday = date.today() - datetime.timedelta(days=1)
     ti = TechIndicators(key=api_keys, output_format='pandas')
     try:
@@ -256,9 +256,9 @@ def sma_of_stock():
 
 
 def get_sentiment():
-    api_key = 'USEJWkiffBLoWvXW6VEgojDco'
-    api_key_secret = '38HkwXVplS51noBpCF8NIhqet8TUzEtZAmGqKXG4KsDW5g7MDL'
-    access_token = '1068976913471942656-vgJqW810ECXSyve5Q4uUm5ACmsU0wO'
+    api_key = '########################'
+    api_key_secret = '########################'
+    access_token = '########################'
     access_token_secret = 'kG4F1nUp8saNLWaTOjaOgMm9vbjG5rMFqhyr9w8u5sGIp'
 
     auth_handler = tweepy.OAuthHandler(consumer_key=api_key, consumer_secret=api_key_secret)
@@ -303,7 +303,7 @@ def get_sentiment():
 
 
 def sma_of_stock_screener(stock_name, period):
-    api_keys = '7Q9XCUZC92SSWZL7'
+    api_keys = '###################'
     yesterday = date.today() - datetime.timedelta(days=1)
     ti = TechIndicators(key=api_keys, output_format='pandas')
     data_ti = ti.get_sma(symbol=str(stock_name), interval='daily', time_period=int(period), series_type='close')
